@@ -11,7 +11,7 @@
           5. Нажать Send"  
   </Steps> 
   <Expected result> Приложение продолжает работу </Expected result>
-  <Actual result> Приложение крашится</Actual result >
+  <Actual_result> Приложение крашится</Actual_result >
   <Attachments></Attachments>
    
   </Bug_report>  
