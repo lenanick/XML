@@ -1,5 +1,17 @@
-  <1> ID </1> 
-  <2> Title </2>
-  <3> Steps </3>
-  <4> Actual result </4>
-  <5> Expected result </5>
+  <Bug report>
+    
+  <ID> 1 </ID> 
+  <Severity> Hight </Severity> 
+  <Title> Краш приложения при отмене подтверждения входа </Title>
+  <Precondition> Профиль авторизован в мобильном приложении </Precondition> 
+  <Steps> 1. Открыть десктопное приложение winapp
+          2. Авторизоваться под тем же аккаунтом, что и на мобильном устройстве
+          3. Отклонить код-картинку на мобильном устройстве, нажать ""Decline""
+          4. Выбрать причину отмены ""The code/picture doesn't match
+          5. Нажать Send"  
+  </Steps> 
+  <Expected result> Приложение продолжает работу </Expected result>
+  <Actual result> Приложение крашится</Actual result >
+  <Attachments></Attachments>
+   
+  </Bug report>  
