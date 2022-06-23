@@ -1,17 +1,19 @@
-  <Bug_report>
-    
-  <ID> 1 </ID> 
-  <Severity> Hight </Severity> 
+<Bug_report>
+
+  <ID> 1 </ID>
   <Title> Краш приложения при отмене подтверждения входа </Title>
-  <Precondition> Профиль авторизован в мобильном приложении </Precondition> 
-  <Steps> 1. Открыть десктопное приложение winapp
-          2. Авторизоваться под тем же аккаунтом, что и на мобильном устройстве
-          3. Отклонить код-картинку на мобильном устройстве, нажать ""Decline""
-          4. Выбрать причину отмены ""The code/picture doesn't match
-          5. Нажать Send"  
-  </Steps> 
+  <Precondition> Профиль авторизован в мобильном приложении </Precondition>
+  <STR>
+          <1> Открыть десктопное приложение winapp </1>
+          <2> Авторизоваться под тем же аккаунтом, что и на мобильном устройстве</2>
+          <3> Отклонить код-картинку на мобильном устройстве, нажать ""Decline"</3>
+          <4> Выбрать причину отмены ""The code/picture doesn't matchv</4>
+          <5>Нажать Send"</5>
+  </STR>
   <Expected result> Приложение продолжает работу </Expected result>
-  <Actual_result> Приложение крашится</Actual_result >
+  <Actual_result> Приложение крашится</Actual_result>
+  <Severity> Hight </Severity>
+  <Environment>ZTE blade A7</Enviroment>
+  <Reproducibility>Usually</Reproducibility>
   <Attachments></Attachments>
-   
-  </Bug_report>  
+  </Bug_report>
